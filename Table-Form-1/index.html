@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table-Based Contact Forms</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <form class="container" action="#">
+    <table>
+         
+        <tr >
+            <td class="header">
+               <span class="icon">&#x2709;</span>
+               <h1 class="heading">Let's Talk</h1>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="input-group">
+                <label>Name:</label>
+                <input type="text" class="input-box" required>
+            </td>
+            <td class="input-group">
+                <label>Email:</label>
+                <input type="email" class="input-box" required>
+            </td>
+            <td class="input-group">
+                <label>Message:</label>
+                <input type="text" class="input-box" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" class="field" placeholder="Name" required>
+            </td>
+            <td>
+                <input type="email" class="field" placeholder="Email" required >
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="tel" class="field" placeholder="Phone" required>
+            </td>
+            <td>
+                <select class="field" required>
+                    <option>Standard</option>
+                    <option>BSC</option>
+                    <option>MSC</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><textarea class="msg" rows="5" placeholder="Message" required></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" class="btn" value="Submit"></td>
+        </tr>
+           
+    </table>
+    </form>
+    
+</body>
+</html>

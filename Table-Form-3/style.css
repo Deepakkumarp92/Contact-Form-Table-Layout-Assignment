@@ -1,0 +1,130 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "El Messiri", sans-serif;
+}
+body{
+    background: linear-gradient(to right, #bd5495 22%, #b15c9b 21%, #d46ca4 50%, #d74487 80%, #e43d7f 22%);
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+body,.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    gap: 5px;
+    margin: 8px 0;
+}
+.container{
+    width: 320px;
+    background-color: #cf70a7;
+    padding: 40px 35px;
+    border: 6px solid rgba(172, 115, 172, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.heading{
+    letter-spacing: 2px;
+}
+.heading,.btn{
+    margin-bottom: 12px;
+}
+.heading,.text,
+.field::placeholder,.link{
+    color: #fff;
+}
+.field{
+    width: 100%;
+    height: 38px;
+    background-color: #d193bd;
+    border: 2px solid #daa6c4;
+    padding-left: 32px;
+    margin: 9px 0;
+    outline: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.field,.square,.btn{
+    border-radius: 14px;
+}
+.text{
+    font-size: 14px;
+    display: inline;
+    margin-right: 5px;
+}
+.link{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.link,.btn{
+    cursor: pointer;
+}
+.btn{
+    width: 90px;
+    height: 38px;
+    background-color: #fff;
+    border: none;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.fa-solid{
+    padding-left: 18px;
+}
+.square{
+    background-color: rgba(209, 147, 189, 0.2);
+    border: 2px solid rgba(209, 147, 189, 0.3);
+    position: absolute;
+    z-index: -1;
+    transition: 0.6s;
+}
+.box1{
+    width: 70px;
+    height: 70px;
+    top: -3px;
+    left: 2%;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    top: 30%;
+}
+.box2,.box3{
+    left: -2%;
+}
+.box3{
+    width: 60px;
+    height: 60px;
+    top: 80%;
+}
+.box4{
+    width: 120px;
+    height: 120px;
+    top: -1%;
+}
+.box5{
+    width: 75px;
+    height: 75px;
+    top: 55%;
+}
+.box4,.box5{
+    right: 1%;
+}
+.square:hover{
+    background-color: rgba(209, 147, 189, 0.5);
+    transform: scale(1.2);
+}
+.field:hover{
+    background-color: #e6a8cd;
+    border-color: #b84785;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+.btn:hover{
+    background-color: #d25c99;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(255,255,255, 0.7);
+    transform: scale(1.05);
+}

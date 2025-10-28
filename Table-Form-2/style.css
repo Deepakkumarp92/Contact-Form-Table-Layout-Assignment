@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+body{
+    background: linear-gradient(to top right, rgba(213, 0, 125, 0.8), rgba(229, 57, 53, 0.8)), url(https://media.istockphoto.com/id/1341288649/photo/75mpix-panorama-of-beautiful-mount-ama-dablam-in-himalayas-nepal.jpg?s=612x612&w=0&k=20&c=0xb_bb-NBIxjiJL_kqY-o3dCjv2PmKFZfRjHcVEijDc=);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0 22px;
+}
+.container{
+    background-color: #fff;
+    width: 650px;
+    padding: 55px 40px;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+}
+.field,.btn{
+    border: none;
+}
+.form{
+    width: 100%;
+    margin-top: 40px;
+}
+.field{
+    width: 100%;
+    padding: 12px 0;
+    margin: 14px 0;
+    outline: none;
+    border-bottom: 2px solid #c3c3c3;
+    transition: 0.3s;
+}
+textarea{
+    resize: none;
+}
+.btn{
+    width: 235px;
+    height: 40px;
+    background: linear-gradient(to right, #d70080 10%,#e73835);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 14px;
+    transition: 0.4s;
+}
+.field:hover{
+    border-bottom: 2px solid #d70080;
+}
+.field:focus{
+    border-bottom: 2px solid #e73835;
+}
+.btn:hover{
+    background: linear-gradient(to right, #e73835, #d70080);
+}
+       
